@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .container-fluid {
+    @apply w-full px-4 max-w-screen-lg mx-auto;
+  }
+}

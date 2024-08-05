@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Vazirmatn } from "@/public/fonts/vazirLocalFont/font";
+import Header from "../components/Header";
 
 export const metadata: Metadata = {
   title: "گلدیکا",
@@ -17,7 +18,8 @@ export default function RootLayout({
       <body
         className={`font-vazir  bg-dark-900 text-stone-100 ${Vazirmatn.variable} `}
       >
-        {children}
+        <Header />
+        <main>{children}</main>
       </body>
     </html>
   );
