@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import Overlay from "./Overlay";
 import { Dispatch, useRef } from "react";
