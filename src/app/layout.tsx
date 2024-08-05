@@ -14,7 +14,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-vazir ${Vazirmatn.className} `}>{children}</body>
+      <body
+        className={`font-vazir  bg-dark-900 text-stone-100 ${Vazirmatn.variable} `}
+      >
+        {children}
+      </body>
     </html>
   );
 }
