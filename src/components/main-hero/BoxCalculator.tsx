@@ -2,7 +2,7 @@ import Logo from "../Logo";
 
 function BoxCalculator() {
   return (
-    <div className=" p-3 rounded-xl bg-dark-700">
+    <div className=" p-3 rounded-xl bg-dark-700 min-h-[387px] flex flex-col justify-evenly">
       {/* header */}
       <div className="flex items-center justify-between gap-2 mb-2">
         <div className="flex flex-col gap-2">
@@ -16,7 +16,7 @@ function BoxCalculator() {
         </div>
       </div>
       {/* middle */}
-      <div className="bg-dark-600 rounded-md ">
+      <div className="bg-dark-600 rounded-xl ">
         <div className="flex items-center">
           <button className="bg-transparent p-4 flex-1 border-b border-yellow-500 ">
             خرید
@@ -43,7 +43,11 @@ function BoxCalculator() {
         </div>
       </div>
       {/* footer */}
-      <div></div>
+      <div>
+        <button className=" border-2 rounded-md p-2 mt-auto block w-full border-yellow-600">
+          خرید
+        </button>
+      </div>
     </div>
   );
 }
