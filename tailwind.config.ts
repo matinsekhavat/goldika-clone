@@ -14,6 +14,8 @@ const config: Config = {
       },
       colors: {
         dark: {
+          600: "#494C5A",
+          700: "#373943",
           900: "#2A2C34",
         },
       },
