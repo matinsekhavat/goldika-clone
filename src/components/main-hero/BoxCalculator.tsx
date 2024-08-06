@@ -29,14 +29,14 @@ function BoxCalculator() {
           <div className="flex items-stretch gap-2  border rounded-lg border-stone-500 bg-dark-900">
             <input
               type="text"
-              className="bg-transparent outline-none border-none flex-1 p-2"
+              className="w-0 bg-transparent outline-none border-none flex-1 p-2"
             />
             <p className="self-center p-2 ">تومان</p>
           </div>
           <div className="flex items-stretch gap-2  border rounded-lg border-stone-500 bg-dark-900">
             <input
               type="text"
-              className="bg-transparent outline-none border-none flex-1 p-2"
+              className="w-0 bg-transparent outline-none border-none flex-1 p-2"
             />
             <p className="self-center p-2 ">گرم</p>
           </div>
