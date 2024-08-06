@@ -19,9 +19,9 @@ function NavList({ isOpen = false, setIsMenuOpen }: NavlistProps) {
     <>
       <Overlay show={isOpen}>
         <div
-          className={`sm:hidden flex flex-col bg-dark-900 fixed top-0 bottom-0 w-56 ${
+          className={`sm:hidden  bg-dark-900  h-dvh transition-all z-50 fixed top-0 bottom-0 w-56 ${
             isOpen ? "right-0" : "-right-56"
-          } transition-all`}
+          }`}
           ref={navRef}
         >
           <ul className="p-8">
