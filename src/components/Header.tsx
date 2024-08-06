@@ -4,7 +4,7 @@ import NavBar from "./NavBar";
 
 function Header() {
   return (
-    <header className="w-full fixed top-0 left-0 right-0 bg-slate-950 ">
+    <header className="w-full backdrop-blur-md fixed top-0 left-0 right-0">
       <div className="container-fluid flex items-center justify-between py-3  ">
         <NavBar />
         {/* auth Badge */}
