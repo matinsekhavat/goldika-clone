@@ -9,7 +9,7 @@ function PhoneNumberInput() {
     <div className="flex items-center h-14 border border-stone-400 rounded-xl p-2 gap-2 ">
       <input
         type="number"
-        className="border-none outline-none flex-1 h-full bg-transparent text-stone-300 "
+        className="w-0 border-none outline-none flex-1 h-full bg-transparent text-stone-300 "
         placeholder="شماره تلفن همراه خود را وارد کنید "
         onChange={(e) => setPhoneNumber(e.target.value)}
         value={phoneNumber}
