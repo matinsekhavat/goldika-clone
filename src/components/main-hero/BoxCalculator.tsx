@@ -2,7 +2,7 @@ import Logo from "../Logo";
 
 function BoxCalculator() {
   return (
-    <div className=" p-3 rounded-xl bg-dark-700 min-h-[387px] flex flex-col justify-evenly">
+    <div className=" p-6 rounded-xl bg-dark-700 min-h-[387px] flex flex-col justify-evenly">
       {/* header */}
       <div className="flex items-center justify-between gap-2 mb-2">
         <div className="flex flex-col gap-2">
