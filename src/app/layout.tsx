@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Vazirmatn } from "@/public/fonts/vazirLocalFont/font";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "گلدیکا",
@@ -20,6 +21,7 @@ export default function RootLayout({
       >
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
