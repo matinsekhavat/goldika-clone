@@ -13,4 +13,14 @@
   .container-fluid {
     @apply w-full px-4 max-w-screen-lg mx-auto;
   }
+  .modal {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 300ms, visibility 300ms;
+  }
+
+  .modal.isOpen {
+    opacity: 1;
+    visibility: visible;
+  }
 }
