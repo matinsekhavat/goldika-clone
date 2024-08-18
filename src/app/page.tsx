@@ -1,6 +1,7 @@
 import BoxCalculator from "../components/main-hero/BoxCalculator";
 import ButtonBadge from "../components/main-hero/ButtonBadge";
 import PhoneNumberInput from "../components/main-hero/PhoneNumberInput";
+import TransactionFees from "../components/main-hero/TransactionFees";
 
 function HomePage() {
   return (
@@ -45,6 +46,9 @@ function HomePage() {
         {/* Live Box */}
         <div className="max-w-[340px] md:max-w-[431px] w-full mx-auto ">
           <BoxCalculator />
+          <div className="flex items-center justify-end">
+            <TransactionFees />
+          </div>
         </div>
       </div>
     </div>
