@@ -28,7 +28,7 @@ function TransactionFees() {
       </button>
       <Overlay show={isModalOpen}>
         <Modal ref={modalRef} isOpen={isModalOpen}>
-          <div className="bg-slate-500">
+          <div className="bg-slate-500 h-full">
             نحوه محاسبه‌ی کارمزد در گلدیکا کارمزد معاملات اکثر اوقات حدوداً ۱٪
             در سمت خرید و ۱٪ در سمت فروش است که با توجه به مزایای گلدیکا از جمله
             امکان معامله خرد، امکان معامله آنلاین در هر ساعتی از شبانه روز حتی
