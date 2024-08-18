@@ -22,10 +22,10 @@ const accessLinkList: AccessLinkProps[][] = [
 
 function Footer() {
   return (
-    <footer className="bg-dark-700 border-t border-dark-400 py-8 ">
+    <footer className="bg-dark-700 border-t border-dark-400 pt-12 ">
       <div className="container-fluid ">
         {/* uppper side */}
-        <div className="grid grid-cols-1 gap-y-4 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 ">
           {/* AccessLink */}
           <div className="flex gap-4 justify-around">
             {accessLinkList.map((links, index) => (
@@ -65,6 +65,26 @@ function Footer() {
             </GovCertificate>
           </div>
         </div>
+        {/* MiddleSection - contact us */}
+        <div className="my-14 md:flex md:items-start md:justify-between md:gap-8">
+          <div className="sm:flex">
+            <p className="text-stone-400"> آدرس دفتر فنی:&nbsp; </p>
+
+            <address className="not-italic mt-">
+              تهران، دانشگاه صنعتی شریف، مجتمع نوآوری شهید ستاری، طبقه پنجم،
+              واحد ۵۲۳
+            </address>
+          </div>
+          <div className="text-center mt-4 md:mt-0">
+            <span className="text-stone-400">تلفن: </span>
+            <span> ۰۲۱-۹۱۰ ۹۶ ۱۹۶ </span>
+            {/* <div className="flex">social</div> */}
+          </div>
+        </div>
+
+        <p className="text-center  p-3 font-light text-sm text-gray-400">
+          کلیه حقوق برای گلدیکا محفوظ است🧡
+        </p>
       </div>
     </footer>
   );
